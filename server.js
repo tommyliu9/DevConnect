@@ -21,7 +21,8 @@ mongoose
 
 app.get("/", (req, res) => {
   res.send("Hello World  NIga");
-  console.log(req.cookies);
+
+  console.log(req.ip);
 });
 
 // use Routes
